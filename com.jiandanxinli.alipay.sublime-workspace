@@ -1,0 +1,778 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cal",
+				"callbackContext"
+			],
+			[
+				"se",
+				"settings"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"al",
+				"alipay_lib"
+			],
+			[
+				"tar",
+				"target-dir"
+			],
+			[
+				"and",
+				"android"
+			],
+			[
+				"ali",
+				"alipay"
+			],
+			[
+				"act",
+				"activity"
+			],
+			[
+				"ac",
+				"Activity"
+			],
+			[
+				"bos",
+				"browser_show"
+			],
+			[
+				"cus",
+				"CUSTOM_USER_AGENT"
+			],
+			[
+				"bor",
+				"browser"
+			],
+			[
+				"ver",
+				"version"
+			],
+			[
+				"tes",
+				"testing_2"
+			],
+			[
+				"par",
+				"parent"
+			],
+			[
+				"ui",
+				"ui-page-active"
+			],
+			[
+				"index",
+				"indexOf"
+			],
+			[
+				"data",
+				"dataForWeixin"
+			],
+			[
+				"ref",
+				"referral_to"
+			],
+			[
+				"visi",
+				"visit"
+			],
+			[
+				"sc",
+				"scenario"
+			],
+			[
+				"req",
+				"request"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "plugin.xml",
+			"settings":
+			{
+				"buffer_size": 2385,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/android/src/AlipayPlugin.java",
+			"settings":
+			{
+				"buffer_size": 2974,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/alipay.js",
+			"settings":
+			{
+				"buffer_size": 1101,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "10-18 19:35:14.175: I/AlipayPlugin(3526): info = partner=\"2088411899762645\"&seller_id=\"feng.he@gmail.com\"&service=\"mobile.securitypay.pay\"&_input_charset=\"UTF-8\"&payment_type=\"1\"&it_b_pay=\"1m\"&subject=\"11\"&out_trade_no=\"1413675311217\"&body=\"%E5%95%86%E5%93%81%E6%8F%8F%E8%BF%B0\"&total_fee=\"0.01\"&notify_url=\"\"&return_url=\"\"&sign=\"FqRgO05IquQLT%2FoHH4f6%2F2iiitUp5xRH67B3IRJGvIje%2BDrvfiDNRYLvHXxGR9i9JzhiA7h2a11TRtJpBqtYlYgXxy1lI3uSEQk57y9FJNK6jSfxppdxKC%2FXwcbcQLZSCN9%2Bdo%2BJi8J%2B1sNth%2BXVaja1xi9HTygIWhyf7ONmfJw%3D\"&sign_type=\"RSA\"\n",
+			"settings":
+			{
+				"buffer_size": 538,
+				"line_ending": "Unix",
+				"name": "10-18 19:35:14.175: I/AlipayPlugin(3526): info = p"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"sas",
+				"Set Syntax: AppleScript"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/ben/dev/com.jiandanxinli.alipay",
+		"/Users/ben/dev/com.jiandanxinli.alipay/src",
+		"/Users/ben/dev/com.jiandanxinli.alipay/src/android",
+		"/Users/ben/dev/com.jiandanxinli.alipay/src/android/alipay_lib/bin/res",
+		"/Users/ben/dev/com.jiandanxinli.alipay/src/android/alipay_lib/src/com",
+		"/Users/ben/dev/com.jiandanxinli.alipay/src/android/alipay_lib/src/com/alipay",
+		"/Users/ben/dev/com.jiandanxinli.alipay/src/android/alipay_lib/src/com/alipay/android",
+		"/Users/ben/dev/com.jiandanxinli.alipay/src/android/alipay_lib/src/com/alipay/android/app",
+		"/Users/ben/dev/com.jiandanxinli.alipay/src/android/alipay_lib/src/com/alipay/android/app/lib",
+		"/Users/ben/dev/com.jiandanxinli.alipay/src/android/src",
+		"/Users/ben/dev/com.jiandanxinli.alipay/www"
+	],
+	"file_history":
+	[
+		"/Users/ben/dev/com.jiandanxinli.alipay/src/android/src/Base64.java",
+		"/Users/ben/dev/com.jiandanxinli.alipay/src/android/src/Result.java",
+		"/Users/ben/dev/com.jiandanxinli.alipay/src/android/src/Rsa.java",
+		"/Users/ben/dev/com.jiandanxinli.alipay/src/android/alipay_lib/project.properties",
+		"/Users/ben/dev/com.jiandanxinli.alipay/src/android/src/Keys.java",
+		"/Users/ben/dev/my_therapist/plugins/com.jiandanxinli.alipay/www/alipay.js",
+		"/Users/ben/dev/my_therapist/plugins/com.jiandanxinli.cordova.alipay/plugin.xml",
+		"/Users/ben/dev/my_therapist/plugins/com.jiandanxinli.cordova.alipay/www/alipay.js",
+		"/Users/ben/dev/my_therapist/platforms/android/src/com/jiandanxinli/cordova/alipay/AlipayPlugin.java",
+		"/Users/ben/dev/com.jiandanxinli.alipay/src/android/src/Alipay.java",
+		"/Users/ben/dev/com.jiandanxinli.alipay/plugin.xml",
+		"/Users/ben/dev/com.jiandanxinli.alipay/www/alipay.js",
+		"/Users/ben/dev/my_therapist/plugins/android.json",
+		"/Users/ben/dev/my_therapist/platforms/android/src/com/jiandanxinli/cordova/alipay/Alipay.java",
+		"/Users/ben/dev/my_therapist/platforms/android/build.xml",
+		"/Users/ben/dev/my_therapist/platforms/android/local.properties",
+		"/Users/ben/dev/my_therapist/platforms/android/ant-build/AndroidManifest.cordova.xml",
+		"/Users/ben/dev/my_therapist/plugins/com.jiandanxinli.cordova.alipay/src/android/src/Alipay.java",
+		"/Users/ben/dev/my_therapist/plugins/cordova-plugin-alipay/plugin.xml",
+		"/Users/ben/dev/my_therapist/plugins/cordova-plugin-alipay/www/alipay.js",
+		"/Users/ben/dev/my_therapist/plugins/cordova-plugin-alipay/src/android/src/Alipay.java",
+		"/Users/ben/dev/my_therapist/plugins/cordova-plugin-alipay/src/android/src/com/jiandanxinli/cordova/alipay/Alipay.java",
+		"/Users/ben/dev/my_therapist/plugins/cordova-plugin-alipay/src/android/src/com/jiandanxinli/cordova/alipay/MainActivity.java",
+		"/Users/ben/dev/my_therapist/platforms/android/AndroidManifest.xml",
+		"/Users/ben/dev/my_therapist/plugin.xml",
+		"/Users/ben/dev/my_therapist/plugins/org.apache.cordova.inappbrowser/src/android/InAppBrowser.java",
+		"/Users/ben/dev/my_therapist/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/spdy/Http20Draft06.java",
+		"/Users/ben/dev/my_therapist/plugins/uk.co.whiteoctober.cordova.appversion/VERSION",
+		"/Users/ben/dev/my_therapist/platforms/android/res/xml/config.xml",
+		"/Users/ben/dev/my_therapist/platforms/android/cordova/lib/install-device",
+		"/Users/ben/dev/my_therapist/www/index.html",
+		"/Users/ben/dev/zfben/config/database.yml",
+		"/Users/ben/dev/zfben/zfben.sublime-project",
+		"/Users/ben/dev/zfben/spec/routing/zfben_spec.rb",
+		"/Users/ben/dev/jiandanxinli/app/admin/page.rb",
+		"/Users/ben/dev/jiandanxinli/app/models/paid_call.rb",
+		"/Users/ben/dev/jiandanxinli/app/models/answer.rb",
+		"/Users/ben/dev/jiandanxinli/app/assets/stylesheets/application.sass",
+		"/Users/ben/dev/jiandanxinli/app/views/testings/_testing.slim",
+		"/Users/ben/dev/jiandanxinli/app/views/reservations/show.slim",
+		"/Users/ben/dev/jiandanxinli/app/admin/reservation_statistics.rb",
+		"/Users/ben/dev/jiandanxinli/app/models/reservation.rb",
+		"/Users/ben/dev/jiandanxinli/app/admin/reservation.rb",
+		"/Users/ben/dev/jiandanxinli/app/views/service_mailer/reservation_waiting_for_expert.slim",
+		"/Users/ben/dev/jiandanxinli/app/views/reservation_time_roles/index.slim",
+		"/Users/ben/dev/jiandanxinli/app/views/reservations/index.slim",
+		"/Users/ben/dev/jiandanxinli/db/migrate/20140920133729_change_users_index.rb",
+		"/Users/ben/dev/jiandanxinli/app/views/reservation_messages/refunded.slim",
+		"/Users/ben/dev/jiandanxinli/app/views/reservation_times/delete.slim",
+		"/Users/ben/dev/jiandanxinli/app/views/reservations/_reservation.slim",
+		"/Users/ben/dev/jiandanxinli/app/views/testing_logs/show.slim",
+		"/Users/ben/dev/jiandanxinli/app/assets/stylesheets/testings.sass",
+		"/Users/ben/dev/jiandanxinli/app/assets/javascripts/v2.coffee",
+		"/Users/ben/dev/jiandanxinli/app/admin/yun_tong_xun_log.rb",
+		"/Users/ben/dev/jiandanxinli/app/admin/paid_call.rb",
+		"/Users/ben/dev/jiandanxinli/config/initializers/public_activity.rb",
+		"/Users/ben/dev/jiandanxinli/config/puma.rb",
+		"/Users/ben/dev/jiandanxinli/app/views/layouts/v2.slim",
+		"/Users/ben/dev/jiandanxinli/app/views/testing_logs/new/1.slim",
+		"/Users/ben/dev/jiandanxinli/app/assets/stylesheets/v2.sass",
+		"/Users/ben/dev/jiandanxinli/app/views/testing_logs/new/8.slim",
+		"/Users/ben/dev/jiandanxinli/app/views/users/home.slim",
+		"/Users/ben/dev/jiandanxinli/spec/features/devise_spec.rb",
+		"/Users/ben/dev/jiandanxinli/app/assets/javascripts/application.coffee",
+		"/Users/ben/dev/jiandanxinli/app/assets/javascripts/testings.coffee",
+		"/Users/ben/dev/jiandanxinli/app/views/reservations/_form.slim",
+		"/Users/ben/dev/jiandanxinli/app/views/reservation_time_roles/_form.slim",
+		"/Users/ben/dev/jiandanxinli/app/models/following.rb",
+		"/Users/ben/dev/jiandanxinli/app/views/tags/_tag.slim",
+		"/Users/ben/dev/jiandanxinli/app/views/answers/_answer.slim",
+		"/Users/ben/dev/jiandanxinli/app/admin/testing.rb",
+		"/Users/ben/dev/jiandanxinli/spec/factories/testings.rb",
+		"/Users/ben/dev/jiandanxinli/app/views/pages/home.slim",
+		"/Users/ben/dev/jiandanxinli/app/assets/stylesheets/home.sass",
+		"/Users/ben/dev/jiandanxinli/config/helper.yml",
+		"/Users/ben/dev/jiandanxinli/jiandanxinli.sublime-project",
+		"/Users/ben/dev/jiandanxinli/bin/delayed_job",
+		"/Users/ben/dev/jiandanxinli/config/initializers/devise.rb",
+		"/Users/ben/dev/jiandanxinli/config/environments/development.rb",
+		"/Users/ben/dev/jiandanxinli/app/models/user.rb",
+		"/Users/ben/dev/jiandanxinli/app/controllers/application_controller.rb",
+		"/Users/ben/dev/jiandanxinli/app/views/testing_logs/new/2.slim",
+		"/Users/ben/dev/jiandanxinli/app/views/testing_logs/new.slim",
+		"/Users/ben/dev/jiandanxinli/app/views/testing_logs/new/3.slim",
+		"/Users/ben/dev/jiandanxinli/app/views/testing_logs/new/4.slim",
+		"/Users/ben/dev/jiandanxinli/app/views/testing_logs/new/5.slim",
+		"/Users/ben/dev/jiandanxinli/app/views/testing_logs/new/6.slim",
+		"/Users/ben/dev/jiandanxinli/config/newrelic.yml",
+		"/Users/ben/dev/jiandanxinli/app/views/testing_logs/new/7.slim",
+		"/Users/ben/dev/jiandanxinli/app/controllers/testing_logs_controller.rb",
+		"/Users/ben/dev/jiandanxinli/app/admin/reservation_time.rb",
+		"/Users/ben/dev/jiandanxinli/app/controllers/testings_controller.rb",
+		"/Users/ben/dev/jiandanxinli/app/admin/testing_log.rb",
+		"/Users/ben/dev/jiandanxinli/app/views/testing_logs/show/8.slim",
+		"/Users/ben/dev/jiandanxinli/spec/factories/testing_logs.rb",
+		"/Users/ben/dev/jiandanxinli/config/environments/test.rb",
+		"/Users/ben/dev/jiandanxinli/app/admin/tag.rb",
+		"/Users/ben/dev/jiandanxinli/app/admin/answer.rb",
+		"/Users/ben/dev/jiandanxinli/db/migrate/20140429131419_add_notifiable_to_notifications.rb",
+		"/Users/ben/dev/jiandanxinli/app/admin/vote.rb",
+		"/Users/ben/dev/jiandanxinli/spec/features/users_spec.rb",
+		"/Users/ben/dev/jiandanxinli/spec/controllers/users_spec.rb",
+		"/Users/ben/dev/jiandanxinli/spec/models/user_spec.rb",
+		"/Users/ben/dev/jiandanxinli/spec/factories/users.rb",
+		"/Users/ben/dev/jiandanxinli/db/migrate/20140924135010_add_referral_to_users.rb",
+		"/Users/ben/dev/jiandanxinli/app/enumerations/reservation_status.rb",
+		"/Users/ben/dev/jiandanxinli/app/views/users/get_phone_token.slim",
+		"/Users/ben/dev/jiandanxinli/db/schema.rb",
+		"/Users/ben/dev/jiandanxinli/spec/factories/reservations.rb",
+		"/Users/ben/dev/jiandanxinli/db/migrate/20140924073456_add_parent_call_sid_to_paid_calls.rb",
+		"/Users/ben/dev/jiandanxinli/config/schedule.rb",
+		"/Users/ben/dev/jiandanxinli/app/controllers/survey_logs_controller.rb",
+		"/Users/ben/dev/jiandanxinli/config/application.rb",
+		"/Users/ben/dev/jiandanxinli/db/migrate/20140507165743_add_price_to_users.rb",
+		"/Users/ben/dev/jiandanxinli/README.rdoc",
+		"/Users/ben/dev/jiandanxinli/Rakefile",
+		"/Users/ben/dev/jiandanxinli/app/admin/user.rb",
+		"/Users/ben/dev/jiandanxinli/app/admin/upload.rb",
+		"/Users/ben/dev/jiandanxinli/Gemfile",
+		"/Users/ben/Library/Rime/default.yaml"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"jiandanxinli",
+			"activity",
+			"getSignType",
+			"DEFAULT_PARTNER",
+			"TAG",
+			"plot",
+			"battery",
+			"hide",
+			"style",
+			"0",
+			"user",
+			"HARDWARE_BACK_BUTTON",
+			"thatWebView",
+			"\"",
+			"xmlhttp",
+			"300",
+			"q.id",
+			".ui",
+			"button",
+			"local",
+			"time.local"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "plugin.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2385,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								910,
+								910
+							],
+							[
+								1372,
+								1372
+							],
+							[
+								2068,
+								2068
+							],
+							[
+								2160,
+								2160
+							],
+							[
+								2249,
+								2249
+							],
+							[
+								2347,
+								2347
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 97.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/android/src/AlipayPlugin.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2974,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								231,
+								231
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "www/alipay.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1101,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								444,
+								444
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 538,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								538,
+								538
+							]
+						],
+						"settings":
+						{
+							"auto_name": "10-18 19:35:14.175: I/AlipayPlugin(3526): info = p",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "com.jiandanxinli.alipay.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"ali",
+				"www/alipay.js"
+			],
+			[
+				"inde",
+				"www/index.html"
+			],
+			[
+				"dep",
+				"config/deploy.rb"
+			],
+			[
+				"zfbc",
+				"app/controllers/zfben_controller.rb"
+			],
+			[
+				"zfsa",
+				"app/assets/stylesheets/zfben.sass"
+			],
+			[
+				"ge",
+				"Gemfile"
+			],
+			[
+				"pagecon",
+				"app/controllers/pages_controller.rb"
+			],
+			[
+				"_sta",
+				"app/views/standard_reservations/_standard_reservation.slim"
+			],
+			[
+				"v2coff",
+				"app/assets/javascripts/v2.coffee"
+			],
+			[
+				"testsa",
+				"app/assets/stylesheets/testings.sass"
+			],
+			[
+				"v2sa",
+				"app/assets/stylesheets/v2.sass"
+			],
+			[
+				"yuntl",
+				"app/models/yun_tong_xun_log.rb"
+			],
+			[
+				"paicon",
+				"app/controllers/paid_calls_controller.rb"
+			],
+			[
+				"yunt",
+				"app/models/yun_tong_xun.rb"
+			],
+			[
+				"pai",
+				"app/models/paid_call.rb"
+			],
+			[
+				"resefor",
+				"app/views/reservations/_form.slim"
+			],
+			[
+				"teshow",
+				"app/views/testing_logs/show.slim"
+			],
+			[
+				"_tes",
+				"app/views/testings/_testing.slim"
+			],
+			[
+				"homsl",
+				"app/views/users/home.slim"
+			],
+			[
+				"devisesp",
+				"spec/features/devise_spec.rb"
+			],
+			[
+				"appsa",
+				"app/assets/stylesheets/application.sass"
+			],
+			[
+				"appcoff",
+				"app/assets/javascripts/application.coffee"
+			],
+			[
+				"new1",
+				"app/views/testing_logs/new/1.slim"
+			],
+			[
+				"new2",
+				"app/views/testing_logs/new/2.slim"
+			],
+			[
+				"new3",
+				"app/views/testing_logs/new/3.slim"
+			],
+			[
+				"new4",
+				"app/views/testing_logs/new/4.slim"
+			],
+			[
+				"new5",
+				"app/views/testing_logs/new/5.slim"
+			],
+			[
+				"tenew6",
+				"app/views/testing_logs/new/6.slim"
+			],
+			[
+				"teslognew",
+				"app/views/testing_logs/new.slim"
+			],
+			[
+				"teslonew7",
+				"app/views/testing_logs/new/7.slim"
+			],
+			[
+				"testcoff",
+				"app/assets/javascripts/testings.coffee"
+			],
+			[
+				"v2",
+				"app/assets/javascripts/v2.coffee"
+			],
+			[
+				"telognew8",
+				"app/views/testing_logs/new/8.slim"
+			],
+			[
+				"testlogsh8",
+				"app/views/testing_logs/show/8.slim"
+			],
+			[
+				"teslgco",
+				"app/controllers/testing_logs_controller.rb"
+			],
+			[
+				"testcon",
+				"app/controllers/testings_controller.rb"
+			],
+			[
+				"ans",
+				"app/models/answer.rb"
+			],
+			[
+				"v2sl",
+				"app/views/layouts/v2.slim"
+			],
+			[
+				"usersp",
+				"spec/features/users_spec.rb"
+			],
+			[
+				"userspe",
+				"spec/models/user_spec.rb"
+			],
+			[
+				"appcon",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"refer",
+				"db/migrate/20140924135010_add_referral_to_users.rb"
+			],
+			[
+				"reser",
+				"app/models/reservation.rb"
+			],
+			[
+				"sch",
+				"db/schema.rb"
+			],
+			[
+				"resersta",
+				"app/enumerations/reservation_status.rb"
+			],
+			[
+				"user",
+				"app/models/user.rb"
+			],
+			[
+				"get",
+				"app/views/users/get_phone_token.slim"
+			],
+			[
+				"gem",
+				"Gemfile"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 298.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

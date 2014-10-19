@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Licensed to the Apache Software Foundation (ASF) under one
+  or more contributor license agreements.  See the NOTICE file
+  distributed with this work for additional information
+  regarding copyright ownership.  The ASF licenses this file
+  to you under the Apache License, Version 2.0 (the
+  "License"); you may not use this file except in compliance
+  with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing,
+  software distributed under the License is distributed on an
+  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+  KIND, either express or implied.  See the License for the
+  specific language governing permissions and limitations
+  under the License.
+-->
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+      id="com.h2ocube.alipay"
+      version="0.0.1">
+    <name>Alipay</name>
+    <description>Cordova Alipay Plugin</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,alipay</keywords>
+
+    <js-module src="www/alipay.js"><clobbers target="alipay" /></js-module>
+
+    <!-- android -->
+    <platform name="android">
+      <config-file target="res/xml/config.xml" parent="/*">
+        <feature name="Alipay">
+          <param name="android-package" value="com.h2ocube.alipay.AlipayPlugin" />
+        </feature>
+      </config-file>
+      <config-file target="AndroidManifest.xml" parent="/*">
+        <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+        <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+        <uses-permission android:name="android.permission.INTERNET" />
+        <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+      </config-file>
+      
+      <source-file src="src/android/alipay.jar" target-dir="libs" framework="true" />
+      <framework src="src/android/alipay_lib" custom="true" />
+      <source-file src="src/android/src/Base64.java" target-dir="src/com/h2ocube/alipay" />
+      <source-file src="src/android/src/Result.java" target-dir="src/com/h2ocube/alipay" />
+      <source-file src="src/android/src/Rsa.java" target-dir="src/com/h2ocube/alipay" />
+      <source-file src="src/android/src/AlipayPlugin.java" target-dir="src/com/h2ocube/alipay" />
+    </platform>
+</plugin>
