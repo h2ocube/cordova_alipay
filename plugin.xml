@@ -20,7 +20,7 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
       id="com.h2ocube.alipay"
-      version="0.0.1">
+      version="0.0.2">
     <name>Alipay</name>
     <description>Cordova Alipay Plugin</description>
     <license>Apache 2.0</license>

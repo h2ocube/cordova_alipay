@@ -3,10 +3,20 @@ var Alipay = function(){}
 Alipay.prototype.settings = {
   partner: '',
   seller_id: '',
-  private_key: ''
+  private_key: '',
+  locked: false,
+  debug: false
 }
 
 Alipay.prototype.pay = function(opts, succ, fail){
+  var _this = this;
+
+  if(this.settings.locked){
+    return false;
+  }
+
+  this.settings.locked = true;
+
   var opts = this.merge({
     out_trade_no: new Date().getTime(),
     subject: '商品标题',
@@ -16,14 +26,20 @@ Alipay.prototype.pay = function(opts, succ, fail){
     return_url: 'http://m.alipay.com'
   }, opts);
 
-  if(typeof succ === 'undefined'){
-    var succ = function(e){
+  var succ_func = function(e){
+    _this.settings.locked = false;
+    if(typeof succ !== 'undefined'){
+      succ(e);
+    }else{
       alert(e);
     }
   }
-  
-  if(typeof fail === 'undefined'){
-    var fail = function(e){
+
+  var fail_func = function(e){
+    _this.settings.locked = false;
+    if(typeof fail !== 'undefined'){
+      fail(e);
+    }else{
       alert(e);
     }
   }
@@ -34,7 +50,13 @@ Alipay.prototype.pay = function(opts, succ, fail){
     params += '&' + k + '="' + encodeURI(opts[k]) + '"';
   };
 
-  cordova.exec(succ, fail, 'Alipay', 'pay', [params, this.settings.private_key]);
+  if(opts.debug){
+    alert(params);
+  }
+
+  cordova.exec(succ_func, fail_func, 'Alipay', 'pay', [params, this.settings.private_key]);
+
+  return true;
 };
 
 Alipay.prototype.merge = function(defaults, target){

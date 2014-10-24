@@ -11,7 +11,8 @@ Developing, don't use at production environment.
     alipay.settings = {
       partner: '2088***',
       seller_id: 'ben@h2ocube.com',
-      private_key: '***'
+      private_key: '***',
+      debug: false
     }
 
     alipay.pay({
@@ -21,7 +22,7 @@ Developing, don't use at production environment.
       total_fee: '0.01',
       notify_url: 'http://m.alipay.com',
       return_url: 'http://m.alipay.com'
-    });
+    }, succ_callback, fail_callback);
 
 ### Supported Platforms
 
